@@ -1,9 +1,16 @@
+/* load */
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap')
 /* CSS Variables */
 :root {
+        /* --color Pallete */
+    --color-1: Green;
+    --color-2: red;
+    --color-3: yellow;
+
     /* main UI color */
-    --plyr-color-main: darkgray;
+    --plyr-color-main: var (--color-1);
     /* audio controls background */
-    --plyr-audio-controls-background: black;
+    --plyr-audio-controls-background: var (--color-2);
     /* audio controls color */
     --plyr-audio-control-color: white;
     /* font family for player */
@@ -21,7 +28,9 @@
 }
 
 body {
-    background: gray;
+    background: background: rgb(63,200,26);
+    background:radial-gradient(circle, rgba(63,200,26,1) 0%, rgba(255,251,29,1) 51%, rgba(255,0,0,1) 100%);
+    font-family: "Madimi One", sans-serif;
 }
 
 /* Layout */
@@ -30,7 +39,8 @@ main {
     max-width: 60em;
     margin-inline: auto;
 
-    background: lightgray;
+    background: whitesmoke;
+
 }
 
 main img {
