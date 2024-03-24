@@ -1,22 +1,26 @@
 /* load */
-@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
+
 /* CSS Variables */
 :root {
-        /* --color Pallete */
-    --color-1: Green;
-    --color-2: red;
+    /* color pallet */
+    --color-1: rgb(39, 86, 39);
+    --color-2: rgb(103, 17, 17);
     --color-3: yellow;
+    
 
     /* main UI color */
-    --plyr-color-main: var (--color-1);
+    --plyr-color-main: var(--color-1);
     /* audio controls background */
-    --plyr-audio-controls-background: var (--color-2);
+    --plyr-audio-controls-background: var(--color-2);
     /* audio controls color */
-    --plyr-audio-control-color: white;
+    --plyr-audio-control-color:var(--color-3);
     /* font family for player */
     --plyr-font-family: sans-serif;
     /* font size of player  */
     --plyr-font-size-time: 16px;
+    --plyr-position: relative; top: 100px; right: 200px;
 
     /* Other optional customiziations */
     --plyr-audio-control-color-hover:  black;
@@ -25,41 +29,93 @@
     --plyr-tooltip-background: white;
     --plyr-tooltip-color: black; 
     --plyr-control-icon-size: 16px;
+
+    
 }
 
+h1 {
+margin-top: 2%;
+font-size: 30px;
+position:relative; top: -410px; right: -440px;
+font-family: font-family: "Ultra", serif;
+
+
+}
+
+h2 {
+font-size: 15px;
+position:relative; top: -400px; right: -440px;
+}
+
+h3 {
+    font-size: 22px;
+    position:relative; top: -360px; right: -440px;
+    width: auto;
+    
+      
+}
+
+h3 p{
+    font-size: 18px;
+    max-width:max-content;
+    position:relative; top: -5px; right: -5px;
+    width: 700px;
+}
+
+.plyr--audio .plyr__controls {
+    position:relative; top: -300px; right: 0px;
+    padding:10px;
+}
+
+p {
+    width: auto;
+    position:relative; top: -250px; right: -15px;
+}
+
+
 body {
-    background: background: rgb(63,200,26);
     background:radial-gradient(circle, rgba(63,200,26,1) 0%, rgba(255,251,29,1) 51%, rgba(255,0,0,1) 100%);
     font-family: "Madimi One", sans-serif;
+   
 }
 
 /* Layout */
 main {
     /* Fixed width center align */
-    max-width: 60em;
+    max-width: 75em;
     margin-inline: auto;
-
-    background: whitesmoke;
+    background:#f5f5f59e;
+    padding: 1em;
 
 }
 
 main img {
     /* Fit image to container */
-    max-width: 100%;
+    max-width: 25%;
     display: block;
+    position:relative; top: 20px; right: -25px;
+    border: 20px solid black; 
+    
+
 }
 
 /* Primary Content */
 article {
     /* flow content horizontally */
-    display: flex;
+    display:block; 
     gap: 1em;
     justify-content: center;
+    font-size: 12px;
+
 }
 
 article section {
     /* keep flex'd child same width */
     flex: 1;
+}
+
+article p {
+    font-size:1.2rem
 }
 
 /* Footer */
