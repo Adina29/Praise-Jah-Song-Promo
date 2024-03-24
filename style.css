@@ -123,6 +123,18 @@ footer {
     text-align: center;
 }
 
+footer a:link,
+footer a:visited {
+    color:var(--color-1);
+    text-decoration:none;
+    font-size: 1.2rem;
+}
+
+footer a:hover,
+footer a:active {
+    color: var(--color-2)
+}
+
 /* Media Queries */
 @media (max-width: 40em) {
     main article {
