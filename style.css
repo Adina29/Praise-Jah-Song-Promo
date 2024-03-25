@@ -1,6 +1,6 @@
 /* load */
 @import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap'); */
 
 /* CSS Variables */
 :root {
@@ -98,6 +98,12 @@ main img {
     
 
 }
+
+.plyr--video {
+    background:red;
+    border:10px solid red;
+    border-radius: 4px;
+  }
 
 /* Primary Content */
 article {

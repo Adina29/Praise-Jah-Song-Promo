@@ -13,5 +13,6 @@
 * What's old is new agai. This is the [modern mixtape](https://en.wikipedia.org/wiki/Mixtape) or a compilation of curated songs. 
 
 ## Citations
-* [Google Font](link)
-* [Google Font](link)
+* [Google Font](https://fonts.googleapis.com/css2?family=Madimi+One&display=swap)
+* [information] (https://www.behindsong.com/song/TkHeo5axBS)
+* [Soundcloud] (https://soundcloud.com/ygmarley/praise-jah-in-the-moonlight)
